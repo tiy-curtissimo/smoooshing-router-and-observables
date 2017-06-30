@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #03a9f4;
+  text-decoration: none;
+  margin-right: 16px;
+  text-transform: uppercase;
+}

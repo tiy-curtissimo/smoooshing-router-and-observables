@@ -1,0 +1,7 @@
+<h1>State Two</h1>
+<a *ngFor="let child of children"
+    uiSref="state-two.child"
+    [uiParams]="{ childId: child.id }"
+    uiSrefActive="active">{{ child.name }}</a>
+
+<ui-view></ui-view>
